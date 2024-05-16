@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppExamenAnimales.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+
+            <Label Text="Examen Fierro Santiago" FontSize="30" HorizontalOptions="Center"/>
+
+            <Button Text="Especies" x:Name="btnEspecies" Clicked="btnEspecies_Clicked"/>
+            <Button Text="Animales" x:Name="btnAnimales" Clicked="btnAnimales_Clicked"/>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
